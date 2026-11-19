@@ -5,17 +5,18 @@ from expense_manager import (
     monthly_summary
 )
 from storage import load_expenses, save_expense
+from ml_categorizer import predict_category
 
 
 def display_menu():
-    print("\n========== EXPENSE TRACKER ==========")
+    print("\n========== SMART EXPENSE TRACKER ==========")
     print("1. Add Expense")
     print("2. View All Expenses")
     print("3. View Total Expenses")
     print("4. Category-wise Summary")
     print("5. Monthly Summary")
     print("6. Exit")
-    print("=====================================")
+    print("===========================================")
 
 
 def add_new_expense(expenses):
@@ -26,21 +27,38 @@ def add_new_expense(expenses):
             print("Invalid input: Amount must be greater than zero.")
             return
 
-        category = input("Enter category: ")
-        if not category.strip():
-            print("Invalid input: Category cannot be empty.")
+        description = input("Enter description: ").strip()
+
+        if not description:
+            print("Invalid input: Description cannot be empty.")
             return
 
-        description = input("Enter description: ")
-        if not description.strip():
-            print("Invalid input: Description cannot be empty.")
+        # AI category prediction
+        try:
+            suggested_category = predict_category(description)
+            print(f"\nAI Suggested Category: {suggested_category}")
+
+            category = input(
+                "Press Enter to accept or type another category: "
+            ).strip()
+
+            if not category:
+                category = suggested_category
+
+        except (FileNotFoundError, ValueError) as error:
+            print(f"AI prediction unavailable: {error}")
+            category = input("Enter category manually: ").strip()
+
+        if not category:
+            print("Category cannot be empty.")
             return
 
         expense = create_expense(amount, category, description)
         save_expense(expense)
         expenses.append(expense)
 
-        print("Expense added successfully!")
+        print("\nExpense added successfully!")
+        print(f"Category saved: {expense['category']}")
 
     except ValueError as error:
         print(f"Invalid input: {error}")
@@ -95,7 +113,7 @@ def show_monthly_summary(expenses):
 
 def main():
     expenses = load_expenses()
-    print("Welcome to Python Expense Tracker!")
+    print("Welcome to Smart Expense Tracker!")
 
     while True:
         display_menu()
@@ -112,7 +130,7 @@ def main():
         elif choice == "5":
             show_monthly_summary(expenses)
         elif choice == "6":
-            print("Thank you for using Expense Tracker!")
+            print("Thank you for using Smart Expense Tracker!")
             break
         else:
             print("Invalid choice. Please select 1-6.")

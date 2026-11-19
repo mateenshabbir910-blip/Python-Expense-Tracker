@@ -3,3 +3,10 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Personal expense records
+data/expenses.csv
+
+# Local backups
+*_backup.*
+app_before_palette.py

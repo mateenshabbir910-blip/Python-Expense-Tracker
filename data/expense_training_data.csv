@@ -1,0 +1,346 @@
+description,category
+Lunch at restaurant,Food
+Dinner with friends,Food
+Grocery shopping,Food
+Bought vegetables,Food
+Pizza delivery,Food
+Coffee and snacks,Food
+Bus fare,Transport
+Uber ride,Transport
+Petrol for bike,Transport
+Fuel for car,Transport
+Train ticket,Transport
+Mobile phone bill,Bills
+Internet monthly bill,Bills
+Electricity bill,Bills
+Gas bill,Bills
+Water bill,Bills
+Bought new shoes,Shopping
+Bought clothes,Shopping
+Online shopping order,Shopping
+Purchased headphones,Shopping
+Doctor appointment,Health
+Bought medicines,Health
+Medical checkup,Health
+Gym membership,Health
+Movie ticket,Entertainment
+Concert ticket,Entertainment
+Netflix subscription,Entertainment
+Gaming subscription,Entertainment
+University fee,Education
+Bought textbooks,Education
+Online course fee,Education
+Stationery purchase,Education
+Breakfast at cafe,Food
+Ordered food online,Food
+Bought fruits,Food
+Restaurant lunch payment,Food
+Tea and biscuits,Food
+Fast food meal,Food
+Chicken and rice dinner,Food
+Bakery items purchase,Food
+Juice and water,Food
+Grocery store payment,Food
+Rickshaw fare,Transport
+Taxi ride payment,Transport
+Careem ride,Transport
+Bike maintenance,Transport
+Car parking fee,Transport
+Motorway toll payment,Transport
+Flight ticket,Transport
+Metro bus card recharge,Transport
+Car repair expense,Transport
+Oil change for car,Transport
+Monthly electricity payment,Bills
+Monthly gas payment,Bills
+Water utility payment,Bills
+Phone recharge,Bills
+WiFi subscription payment,Bills
+House rent payment,Bills
+Cable TV bill,Bills
+Telephone bill payment,Bills
+Internet package renewal,Bills
+Property maintenance fee,Bills
+Bought a jacket,Shopping
+Purchased a backpack,Shopping
+Bought a wristwatch,Shopping
+New furniture purchase,Shopping
+Bought a laptop bag,Shopping
+Online shoes order,Shopping
+Purchased a wallet,Shopping
+Bought a mobile cover,Shopping
+Home decoration items,Shopping
+New clothing purchase,Shopping
+Hospital consultation,Health
+Pharmacy medicine purchase,Health
+Blood test charges,Health
+Dental checkup fee,Health
+Eye examination,Health
+Medical laboratory charges,Health
+Purchased vitamins,Health
+Hospital treatment payment,Health
+Physiotherapy session,Health
+Health insurance payment,Health
+Cinema admission,Entertainment
+Music concert admission,Entertainment
+Sports event ticket,Entertainment
+Video game purchase,Entertainment
+Bowling activity payment,Entertainment
+Amusement park ticket,Entertainment
+Streaming service payment,Entertainment
+Online gaming purchase,Entertainment
+Theatre show ticket,Entertainment
+Theme park entry fee,Entertainment
+College tuition payment,Education
+Programming course enrollment,Education
+Bought notebooks,Education
+Exam registration fee,Education
+School admission fee,Education
+Online learning subscription,Education
+University semester fee,Education
+Purchased study materials,Education
+Workshop registration,Education
+Computer science books,Education
+Ordered chicken biryani for lunch,Food
+Paid for family dinner at restaurant,Food
+Bought fresh fruits from market,Food
+Purchased milk eggs and bread,Food
+Ordered pizza for dinner,Food
+Bought vegetables for home cooking,Food
+Paid restaurant breakfast bill,Food
+Purchased snacks from grocery store,Food
+Ordered burgers through food delivery,Food
+Bought rice flour and cooking oil,Food
+Paid for takeaway food,Food
+Bought chicken from meat shop,Food
+Purchased coffee from cafe,Food
+Had lunch at university cafeteria,Food
+Bought sandwiches for breakfast,Food
+Ordered Chinese food online,Food
+Purchased bakery items and cake,Food
+Paid for ice cream,Food
+Bought groceries for weekly meals,Food
+Ordered shawarma for dinner,Food
+Purchased bottled water and juice,Food
+Paid for office lunch,Food
+Bought fresh fish for dinner,Food
+Purchased spices for cooking,Food
+Paid for food at a local cafe,Food
+Bought breakfast from a restaurant,Food
+Ordered pasta for lunch,Food
+Purchased fruits and vegetables,Food
+Bought biscuits and snacks,Food
+Paid for family groceries,Food
+Purchased cooking ingredients,Food
+Ordered food for guests,Food
+Bought yogurt and cheese,Food
+Paid for dinner delivery,Food
+Purchased tea and coffee supplies,Food
+Booked a ride using Uber,Transport
+Paid for Careem trip,Transport
+Filled petrol in motorcycle,Transport
+Filled diesel in car,Transport
+Paid monthly bus pass,Transport
+Purchased railway ticket,Transport
+Paid for airport taxi,Transport
+Paid motorcycle repair transport charges,Transport
+Bought fuel for vehicle,Transport
+Paid local rickshaw fare,Transport
+Purchased motorway toll ticket,Transport
+Paid parking charges at mall,Transport
+Booked intercity bus ticket,Transport
+Paid metro train fare,Transport
+Purchased car engine oil,Transport
+Paid vehicle registration fee,Transport
+Paid for car wash,Transport
+Booked taxi to university,Transport
+Paid fuel station bill,Transport
+Purchased bicycle repair parts,Transport
+Paid highway toll charges,Transport
+Booked ride to office,Transport
+Paid public transport fare,Transport
+Purchased motorcycle helmet,Transport
+Paid for vehicle servicing,Transport
+Bought petrol for car trip,Transport
+Paid van fare to college,Transport
+Purchased train travel ticket,Transport
+Paid airport parking fee,Transport
+Booked a ride home,Transport
+Paid for vehicle inspection,Transport
+Purchased car wiper blades,Transport
+Paid bus fare to work,Transport
+Bought fuel for generator transport,Transport
+Paid rickshaw charges,Transport
+Purchased a new pair of sneakers,Shopping
+Bought a casual shirt from clothing store,Shopping
+Ordered a mobile phone case,Shopping
+Purchased wireless headphones,Shopping
+Ordered a new backpack,Shopping
+Purchased jeans from mall,Shopping
+Bought a leather wallet,Shopping
+Purchased a laptop stand,Shopping
+Ordered a phone charger,Shopping
+Bought sunglasses,Shopping
+Purchased a winter jacket,Shopping
+Ordered home decoration items,Shopping
+Bought a new handbag,Shopping
+Purchased a computer mouse,Shopping
+Bought a keyboard for laptop,Shopping
+Ordered household storage boxes,Shopping
+Purchased a bedsheet set,Shopping
+Bought new sandals,Shopping
+Purchased a school bag,Shopping
+Ordered a power bank,Shopping
+Bought a pair of trousers,Shopping
+Purchased a water bottle,Shopping
+Bought a new cap,Shopping
+Ordered a tablet cover,Shopping
+Purchased a gaming mouse,Shopping
+Bought a travel suitcase,Shopping
+Purchased kitchen utensils,Shopping
+Ordered a desk lamp,Shopping
+Bought a new sweater,Shopping
+Purchased a phone screen protector,Shopping
+Bought a pair of formal shoes,Shopping
+Ordered a computer accessory,Shopping
+Purchased a clothing bundle,Shopping
+Bought household cleaning tools,Shopping
+Paid monthly electricity charges,Bills
+Paid home gas bill,Bills
+Renewed internet broadband payment,Bills
+Paid mobile network monthly bill,Bills
+Paid water supply charges,Bills
+Paid house maintenance bill,Bills
+Settled electricity dues,Bills
+Paid monthly WiFi subscription,Bills
+Paid landline telephone bill,Bills
+Paid apartment service charges,Bills
+Paid monthly utility expenses,Bills
+Renewed home internet package,Bills
+Paid electricity meter charges,Bills
+Paid gas connection dues,Bills
+Settled water bill for home,Bills
+Paid cable television subscription,Bills
+Paid monthly phone charges,Bills
+Paid household utility bill,Bills
+Renewed mobile data package,Bills
+Paid building maintenance charges,Bills
+Paid internet service provider,Bills
+Settled monthly electricity payment,Bills
+Paid residential water charges,Bills
+Paid gas usage bill,Bills
+Paid telephone service charges,Bills
+Renewed broadband connection,Bills
+Paid monthly housing maintenance,Bills
+Paid utility company invoice,Bills
+Settled home electricity bill,Bills
+Paid monthly internet charges,Bills
+Paid mobile postpaid invoice,Bills
+Paid water supply invoice,Bills
+Paid gas utility invoice,Bills
+Paid building service fee,Bills
+Renewed television service package,Bills
+Paid semester tuition fee,Education
+Purchased university textbooks,Education
+Paid online programming course fee,Education
+Bought notebooks for classes,Education
+Purchased stationery for university,Education
+Paid examination registration fee,Education
+Bought academic reference books,Education
+Paid college admission charges,Education
+Paid computer science course fee,Education
+Bought pens and notebooks,Education
+Paid university laboratory charges,Education
+Purchased an educational workbook,Education
+Paid for online learning classes,Education
+Bought mathematics textbooks,Education
+Paid school monthly fee,Education
+Purchased exam preparation material,Education
+Paid certification examination fee,Education
+Bought a scientific calculator for study,Education
+Paid library membership fee,Education
+Purchased educational software license,Education
+Paid university registration charges,Education
+Bought lecture notes and study guides,Education
+Paid for a language learning course,Education
+Purchased drawing supplies for class,Education
+Paid academic workshop registration,Education
+Bought a school uniform for student,Education
+Paid tuition academy charges,Education
+Purchased computer science books,Education
+Paid for professional training,Education
+Bought laboratory notebook,Education
+Paid online course subscription for learning,Education
+Purchased educational reference material,Education
+Paid semester examination fee,Education
+Bought stationery for school,Education
+Paid doctor consultation fee,Health
+Purchased prescription medicines,Health
+Paid hospital examination charges,Health
+Bought vitamins from pharmacy,Health
+Paid dental checkup fee,Health
+Purchased medical bandages,Health
+Paid laboratory blood test charges,Health
+Bought pain relief medicine,Health
+Paid eye specialist appointment,Health
+Purchased prescribed tablets,Health
+Paid for medical ultrasound,Health
+Bought first aid supplies,Health
+Paid clinic consultation charges,Health
+Purchased cough syrup,Health
+Paid physiotherapy session fee,Health
+Bought medical thermometer,Health
+Paid hospital admission charges,Health
+Purchased allergy medication,Health
+Paid diagnostic test charges,Health
+Bought prescription glasses,Health
+Paid dentist treatment bill,Health
+Purchased antiseptic solution,Health
+Paid medical scan charges,Health
+Bought fever medicine,Health
+Paid vaccination charges,Health
+Purchased healthcare supplies,Health
+Paid specialist doctor fee,Health
+Bought blood pressure monitor,Health
+Paid medical laboratory invoice,Health
+Purchased skin treatment cream,Health
+Paid eye examination charges,Health
+Bought medical supplements prescribed by doctor,Health
+Paid emergency clinic bill,Health
+Purchased diabetes testing strips,Health
+Paid hospital pharmacy bill,Health
+Purchased cinema movie tickets,Entertainment
+Paid monthly Netflix subscription,Entertainment
+Bought concert admission ticket,Entertainment
+Paid gaming platform subscription,Entertainment
+Purchased a video game,Entertainment
+Paid for a music streaming subscription,Entertainment
+Bought tickets for a comedy show,Entertainment
+Paid bowling alley charges,Entertainment
+Purchased amusement park tickets,Entertainment
+Paid for a theatre performance,Entertainment
+Bought a cinema snack combo,Entertainment
+Paid online game credits,Entertainment
+Purchased a music album,Entertainment
+Paid for a live music event,Entertainment
+Bought tickets for a sports show,Entertainment
+Paid gaming cafe charges,Entertainment
+Subscribed to a movie streaming service,Entertainment
+Purchased an entertainment app subscription,Entertainment
+Paid for a weekend fun activity,Entertainment
+Bought tickets for a cultural festival,Entertainment
+Paid for karaoke session,Entertainment
+Purchased a board game for fun,Entertainment
+Paid for a theme park visit,Entertainment
+Bought a movie rental online,Entertainment
+Paid for a comedy club visit,Entertainment
+Purchased gaming accessories for entertainment,Entertainment
+Paid for a live concert,Entertainment
+Bought tickets for a magic show,Entertainment
+Paid for a recreational event,Entertainment
+Subscribed to an online gaming service,Entertainment
+Purchased a digital movie,Entertainment
+Paid for a music concert,Entertainment
+Bought a puzzle game,Entertainment
+Paid for an arcade visit,Entertainment
+Purchased event entry tickets,Entertainment

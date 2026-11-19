@@ -1,65 +1,185 @@
-# Python Expense Tracker
+# Smart Expense Analyzer — AI-Powered
 
-A command-line based Expense Tracker built with Python. It allows users to record daily expenses, store them in a CSV file, and view useful spending summaries.
+Smart Expense Analyzer is an upgraded Python Expense Tracker that combines traditional expense management with machine learning and interactive financial analytics.
+
+The application helps users record expenses, automatically categorize spending descriptions using a locally trained Machine Learning model, explore spending patterns, and identify potentially unusual transactions.
 
 ## Features
 
-- Add expenses with amount, category, and description
-- View all recorded expenses
-- Calculate total expenses
-- Generate category-wise spending summaries
-- Generate monthly expense summaries
-- Validate user input
-- Store data persistently using CSV
+### Expense Management
+- Add and save expenses
+- View transaction history
+- Search and filter transactions
+- Delete transactions
+- Export expense records to CSV
+- Retain the original command-line interface
+
+### AI-Powered Categorization
+- Automatically predicts expense categories from descriptions
+- Uses TF-IDF text vectorization and a Linear Support Vector Machine (Linear SVM)
+- Supports seven expense categories:
+  - Bills
+  - Education
+  - Entertainment
+  - Food
+  - Health
+  - Shopping
+  - Transport
+- Saves the trained model locally using Joblib
+
+### Financial Analytics
+- Total spending and transaction statistics
+- Category-wise spending breakdown
+- Monthly spending trends
+- Average expense analysis
+- Rule-based unusual expense detection
+
+### Interactive Dashboard
+- Streamlit-based interface
+- Interactive charts
+- AI expense prediction
+- Manual expense entry
+- Transaction management and CSV export
+
+## Machine Learning
+
+The categorization model uses a text-classification pipeline:
+
+1. Expense descriptions are converted into numerical features using TF-IDF.
+2. Unigrams and bigrams are extracted.
+3. A Linear SVM classifier predicts the expense category.
+4. The trained pipeline is saved as a Joblib model.
+
+### Dataset
+
+- 345 curated and synthetic expense-description examples
+- 7 expense categories
+- Dataset file: `data/expense_training_data.csv`
+
+The dataset is intended for a learning and portfolio project. Its performance should not be interpreted as a guarantee of accuracy on all real-world expense descriptions.
+
+### Model Evaluation
+
+The models were compared using 5-fold stratified cross-validation.
+
+| Model | Accuracy | Macro F1 |
+|---|---:|---:|
+| Linear SVM | 88.41% | 88.25% |
+| Complement Naive Bayes | 87.83% | 87.44% |
+| Logistic Regression | 83.19% | 82.90% |
+
+Linear SVM was selected as the final model.
+
+An independent 20% holdout evaluation of the selected model produced:
+
+- Test examples: 69
+- Accuracy: 85.51%
+- Macro F1: 85.12%
+
+These results are based on the curated dataset and may differ on unseen real-world data.
 
 ## Technologies Used
 
-- Python 3
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- TF-IDF
+- Linear SVM
+- Joblib
+- Streamlit
+- Plotly
+- Matplotlib
 - CSV
-- Built-in Python modules
 
 ## Project Structure
 
-    Python-Expense-Tracker/
-    ├── data/
-    │   └── expenses.csv
-    ├── expense_manager.py
-    ├── main.py
-    ├── storage.py
-    ├── README.md
-    └── .gitignore
+```text
+Python-Expense-Tracker/
+├── data/
+│   ├── expense_training_data.csv
+├── models/
+│   └── expense_category_model.joblib
+├── analytics.py
+├── app.py
+├── expense_manager.py
+├── main.py
+├── ml_categorizer.py
+├── storage.py
+├── requirements.txt
+└── README.md
+```
 
-## Requirements
+## Installation
 
-- Python 3.10 or later
-- No external packages required
+Clone the repository:
 
-## How to Run
+```bash
+git clone https://github.com/mateenshabbir910-blip/Python-Expense-Tracker.git
+cd Python-Expense-Tracker
+```
 
-Run this command inside the project directory:
+Create and activate a virtual environment.
 
-    python3 main.py
+**macOS / Linux:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
-## Menu Options
+**Windows:**
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
 
-1. Add Expense
-2. View All Expenses
-3. View Total Expenses
-4. Category-wise Summary
-5. Monthly Summary
-6. Exit
+Install dependencies:
+```bash
+python -m pip install -r requirements.txt
+```
 
-## Data Storage
+## Run the Application
 
-Expenses are stored locally in data/expenses.csv. Previously saved expenses are automatically loaded when the application starts.
+Start the dashboard:
+```bash
+streamlit run app.py
+```
 
-## Input Validation
+Open http://localhost:8501 in your browser.
 
-- Rejects zero and negative amounts
-- Rejects empty categories
-- Rejects empty descriptions
-- Validates monthly date format
+Run the CLI application:
+```bash
+python main.py
+```
+
+## Train the Model
+```bash
+python ml_categorizer.py
+```
+
+## Evaluate the Model
+```bash
+python compare_models.py
+python validate_best_model.py
+```
+
+## Data and Privacy
+
+Expense records are stored locally in data/expenses.csv. Personal transaction data should not be uploaded to a public repository.
+
+The categorization model runs locally and does not require a paid AI API.
+
+The training dataset contains curated and synthetic examples. Results may differ on real-world expense descriptions.
+
+## Future Improvements
+
+- Calibrated prediction confidence
+- More robust anomaly detection
+- Budget planning and spending alerts
+- Database integration
 
 ## Author
 
 Mateen
+
+GitHub: https://github.com/mateenshabbir910-blip
